@@ -1,0 +1,12 @@
+package com.katho.biblioteca.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class LivrosController {
+
+	@GetMapping
+	public String home() {
+		
+		return "CadastroLivros";
+	}
+}

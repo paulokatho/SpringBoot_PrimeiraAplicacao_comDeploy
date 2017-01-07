@@ -1,0 +1,13 @@
+package com.katho.biblioteca.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Livro {
+	
+	private Long codigo;
+	private String titulo;
+	private String autor;
+	private String nota;
+	
+}

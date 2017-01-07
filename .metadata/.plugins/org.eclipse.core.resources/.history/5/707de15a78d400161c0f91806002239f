@@ -1,0 +1,12 @@
+package com.katho.biblioteca;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PaulokathoBibliotecaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PaulokathoBibliotecaApplication.class, args);
+	}
+}

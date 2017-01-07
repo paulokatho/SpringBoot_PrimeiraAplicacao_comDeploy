@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Biblioteca</title>
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1 class="bd-title">Biblioteca</h1>
+			<div class="clearfix">
+				<div class="pull-left">
+					<p class="lead">Organize sua coleção de livros</p>
+				</div>
+				<div class="pull-right">
+					<button type="button" class="btn btn-default btn-sm"
+							data-toggle="modal" data-target="#novoLivroModal">
+						<span class="glyphicon glyphicon-plus"></span>
+					
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
