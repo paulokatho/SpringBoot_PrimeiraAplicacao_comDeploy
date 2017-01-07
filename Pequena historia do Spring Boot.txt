@@ -1,0 +1,36 @@
+			
+			SPRING BOOT: DO ZERO À PRODUÇÃO
+
+	Spring boot foi criado para facilitar a criação de aplicações com Spring. 
+	Antes a configuração era bem complicada, pois a maior parte dessa configuração era em xml. E com xml é um tanto quanto mais chato e muitas vezes se descobre um 
+erro no xml quando se está compilando.
+	O pessoal do Spring pensando nisso resolveu para facilitar a configuração do Spring utilizando classes java. E uma das vantagens é que um possível erro já é 
+ visto durante a implementação e a correção é bem mais fácil. E esse é um avanço muito grande e facilita o dia a dia do desenvolvedor.
+
+ 	Depois disso tudo veio o Spring boot, pois o pessoal pensando que as configurações eram sempre seguiam basicamente o mesmo modelo. Então eles observando que um 
+programador A, B e C utilizavam o mesmo padrão, resolveram deixar isso automatizado. É uma auto-configuração.
+	E o Spring boot entende que se for adicionado um certo pacote dentro de uma aplicação ele vai entender como configurar automaticamente.
+	Como exemplo tem o Thymeleaf que precisa de um template engine em java para ser feita uma tela, então somente de adicionar a dependência do Thymeleaf ele já 
+sabe configurar e já é possível usar o Thymeleaf sem precisar configurar mais nada. Essa é uma das grandes sacadas do Spring boot para facilitar o desenvolvimento de aplicações web. Então dá para começar uma aplicação muito rápido.
+
+	Muito importante: O Spring boot não gera código. Ele configura baseado em padrões como configurar uma aplicação. Ele possui classes com inteligencia que vai 
+identificar o que a aplicação vai fazer e trabalha nisso. E não terá que escrever nenhum xml...
+
+	O Spring também trouxe uma coisa muito legal que é o Starter que deixa o pom.xml do maven bem menor, mesmo que se tenha muitas dependências. Esse Spring boot 
+starter também já combina as versões compatíveis automaticamente também.
+
+	Para a aplicação que também estará no repositótio do github/paulokatho, foi utilizado o STS (spring tools suite). Se for baixar é necessário ir até o site 
+spring.io para baixar o STS. Essa STS é baseada no eclipse e criaram alguns plugins, ferramentas e deixaram pronto para poder trabalhar com Spring.
+
+	Se for fazer deploy da aplicação é necessário fazer o download e instação do git e também do Heroku ToolBelt. O download pode ser feito no Heroku.com, mas tem 
+que criar uma conta, mas é gratuita uma parte dele. O Heroku será utilizado por ele ser bem famoso e bem simples de se utilizar.
+
+	Poderia ser utilizado o run.pivotal.io que também é possível fazer o deploy na nuvem. Você ganha 87,00 dólares de crédito para utilizar no servidor. A Pivotal 
+é a empresa que dá mais suporte ao Spring hoje em dia.
+
+	Com o spring data jpa é muito tranquilo de se implementar um CRUD, pois ele já tem configurado várias queries para insert, edição, delete e consultas básicas. 
+Facilita muito a vida do desenvolvedor.
+
+	Então baixar e instalar o STS e o GIT.
+
+	Maiores detalhes no vídeo da Algaworks: https://www.youtube.com/watch?v=S4MII8V9rRw 
